@@ -26,7 +26,7 @@ const PostContent = ({
                 />
                 <p className="font-semibold text-lg">{username || email}</p>
             </div>
-            <p className="overflow-y-auto text-md w-2">{content}</p>
+            <p className="overflow-y-auto text-md">{content}</p>
         </Link>
     );
 };
